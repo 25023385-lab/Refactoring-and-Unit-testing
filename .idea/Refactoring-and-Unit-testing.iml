@@ -9,7 +9,10 @@
       <sourceFolder url="file://$MODULE_DIR$/bai4/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bai5/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bai6/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bai7/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bai8/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bai10/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bai9/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
