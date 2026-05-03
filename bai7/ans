@@ -1,0 +1,18 @@
+Bài 1: The discount inspector
+Cho hàm calculateDiscount(double price, String memberType) với đặc tả sau:
+
+price < 0: ném IllegalArgumentException
+
+memberType là GUEST: không có chiết khấu (0%)
+
+memberType là MEMBER: chiết khấu 5% nếu price < 100, chiết khấu 10% nếu price >= 100
+
+memberType là VIP: chiết khấu 15% nếu price < 100, chiết khấu 20% nếu price >= 100
+
+memberType khác: ném IllegalArgumentException
+
+Yêu cầu:
+Xác định các lớp tương đương (equivalence class) cho tham số price.
+Lập bảng test case theo EP: mỗi lớp tương đương có ít nhất một test case đại diện. Bảng gồm các cột: Mã TC | Mô tả | price | memberType | Kết quả mong đợi.
+Áp dụng BVA cho tham số price tại ranh giới price = 0 và price = 100. Liệt kê đầy đủ các giá trị biên cần test (min−, min, min+, max−, max, max+).
+Áp dụng 2-way combinatorial testing cho cặp (price, memberType). Thiết kế bộ test tối thiểu đảm bảo mọi cặp giá trị đều xuất hiện trong ít nhất một test case.
